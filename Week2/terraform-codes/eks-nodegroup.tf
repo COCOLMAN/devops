@@ -49,7 +49,3 @@ resource "aws_eks_node_group" "test-eks-nodegroup" {
     "Name" = "TEST-EKS-WORKER-NODES"
   }
 }
-
-
-
-aws eks update-kubeconfig --region ap-northeast-2 --name test-eks-cluster
