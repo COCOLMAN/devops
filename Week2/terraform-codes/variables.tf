@@ -23,7 +23,7 @@ variable "aws_azs"  {
 }
 
 #// EKS 클러스터명
-#variable "cluster-name" {
-#  default = "test-eks-cluster"
-#  type    = string
-#}
+variable "cluster-name" {
+  default = "test-eks-cluster"
+  type    = string
+}
